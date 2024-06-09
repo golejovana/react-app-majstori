@@ -1,0 +1,42 @@
+/* UnosNovogMajstora.css */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Razmak iznad forme */
+  }
+  
+  .form-container h2 {
+    text-align: center; /* Centriranje naslova */
+    margin-bottom: 10px; /* Razmak ispod naslova */
+  }
+  
+  .form-container label {
+    margin-bottom: 5px; /* Razmak između labele i inputa */
+  }
+  
+  .form-container input {
+    margin-bottom: 10px; /* Razmak između inputa */
+    padding: 5px; /* Velicina unosa */
+    width: 200px; /* Širina inputa */
+  }
+  
+  .form-container button {
+    padding: 10px 20px; /* Velicina dugmeta */
+    background-color: #007bff; /* Boja pozadine */
+    color: white; /* Boja teksta */
+    border: none; /* Uklanja ivice */
+    border-radius: 5px; /* Zaobljeni ivici */
+    cursor: pointer; /* Pokazivač ruke */
+    transition: background-color 0.3s; /* Animacija boje pozadine */
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3; /* Boja pozadine prilikom prelaska mišem */
+  }
+  
+  .error {
+    color: red; /* Boja teksta za prikazivanje greške */
+  }
+  
